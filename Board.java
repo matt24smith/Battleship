@@ -2,3 +2,7 @@
  
 
 //test commit
+
+public class Board extends BattleShipBoard{
+	
+}
