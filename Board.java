@@ -1,7 +1,7 @@
 //Gui class here
  
 
-//test commit
+//i am making changes to the file
 
 public class Board extends BattleShipBoard{
 	
