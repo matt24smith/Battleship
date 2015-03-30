@@ -1,1 +1,3 @@
-// file goes here
+public class BattleShipBoard {
+	
+}
