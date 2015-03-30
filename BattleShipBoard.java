@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-public class BattleShipBoard {
+
+public class BattleShipBoard extends Board{
 	
 }
-
-// file goes here
-
-=======
-public class BattleShipBoard {
-	
-}
->>>>>>> origin/master
