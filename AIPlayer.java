@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Game {
+   
+   public static ShipSorter shipSorter = new ShipSorter();
+   public static String[][] shipsLocation;
+   
+   public Game(String[][] pl){
+      shipsLocation = pl;
+      }
+}
