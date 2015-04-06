@@ -2,11 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class GUI extends javax.swing.JFrame {
+public class SetupGUI extends javax.swing.JFrame {
     
     //variables
     public static String shipName = "";
     public static boolean rotate = false;
+    public static boolean done = false;
     public static ShipSorter shipSorter = new ShipSorter();
     
     public void color(JButton button){;
@@ -14,8 +15,11 @@ public class GUI extends javax.swing.JFrame {
       
     public void antiColor(JButton button){
       button.setBackground(Color.BLUE);}
+      
+    public void text(String text){
+      jTextArea1.append(text+"\n");}
     
-    public GUI(){  
+    public SetupGUI(){  
         PlayerPanel = new javax.swing.JPanel();
         jButtonA1 = new javax.swing.JButton();
         jButtonA2 = new javax.swing.JButton();
@@ -87,7 +91,8 @@ public class GUI extends javax.swing.JFrame {
         AircraftButton = new javax.swing.JButton();
         RotateShipButton = new javax.swing.JButton();
         DoneButton = new javax.swing.JButton();
-        TopText = new javax.swing.JLabel();
+        jTextArea1 = new javax.swing.JTextArea();
+        jScrollPane1 = new javax.swing.JScrollPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         
@@ -772,22 +777,6 @@ public class GUI extends javax.swing.JFrame {
                         .addComponent(jButtonH1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addContainerGap(28, Short.MAX_VALUE)))
         );
-        
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(TopText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(PlayerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(PlacingPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
          
         // -------------------------------------------------------
          
@@ -822,6 +811,11 @@ public class GUI extends javax.swing.JFrame {
 
         DoneButton.setFont(new java.awt.Font("Tahoma", 0, 24));
         DoneButton.setText("Done");
+        DoneButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DoneButtonActionPerformed();
+            }
+        });
 
         // -------------------------------------------------------
 
@@ -837,7 +831,7 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(DestroyerButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(SubmarineButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(DoneButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(DoneButton, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE)
                 .addGap(138, 138, 138))
         );
         PlacingPanelLayout.setVerticalGroup(
@@ -857,25 +851,39 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+        jScrollPane1.setToolTipText("");
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(0, 255, 0));
+        jTextArea1.setLineWrap(true);
+        jTextArea1.setRows(5);
+        jTextArea1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
+        jScrollPane1.setViewportView(jTextArea1);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(TopText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(PlayerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(PlacingPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addComponent(PlayerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(PlacingPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(29, 29, 29)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 820, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(TopText, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(PlayerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -883,7 +891,7 @@ public class GUI extends javax.swing.JFrame {
         );
 
         pack();
-    }                       
+     }                  
     // -------------------------------------------------------
     
     public void AircraftButtonActionPerformed() {
@@ -1027,7 +1035,7 @@ public class GUI extends javax.swing.JFrame {
     }        
      
      public void jButtonE8ActionPerformed() {                                          
-        Button("D8");
+        Button("E8");
     }                            
  
     public void jButtonE1ActionPerformed() {                                          
@@ -1155,11 +1163,16 @@ public class GUI extends javax.swing.JFrame {
     }
     
     public void RotateShipButtonActionPerformed() {
-         Button("Rotate");
+         rotateButton();
+    }
+    
+    public void DoneButtonActionPerformed() {
+         doneButton();
     }
 
     // -------------------------------------------------------                   
-    public javax.swing.JLabel TopText;
+    public javax.swing.JTextArea jTextArea1;
+    public javax.swing.JScrollPane jScrollPane1;
     public javax.swing.JButton AircraftButton;
     public javax.swing.JButton DestroyerButton;
     public javax.swing.JButton DoneButton;
@@ -1214,7 +1227,7 @@ public class GUI extends javax.swing.JFrame {
     public javax.swing.JButton jButtonG8;
     public javax.swing.JButton jButtonG1;
     public javax.swing.JButton jButtonG2;
-    public javax.swing.JButton            jButtonG3;
+    public javax.swing.JButton jButtonG3;
     public javax.swing.JButton jButtonG4;
     public javax.swing.JButton jButtonG5;
     public javax.swing.JButton jButtonG6;
@@ -1233,39 +1246,41 @@ public class GUI extends javax.swing.JFrame {
     public javax.swing.JButton jButtonA8; 
     
     // -------------------------------------------------------
-    
+
     public static void shipN(String s){
       shipName = s;}
     
-    public static void Button(boolean r){
-         rotate = r;
+    public static void rotateButton(){
          if(rotate == true){
             rotate = false;}
          else{//rotate == false
             rotate = true;}
-      }
+    }
+    
+    public static boolean doneButton(){
+         String[][] ships = shipSorter.getShips();
+         if (ships[0][0]==null||ships[1][0]==null||ships[2][0]==null){
+            String errorDone = "ERROR - ALL SHIPS NOT PLACED";
+            ShipSorter doneShip = new ShipSorter(errorDone);
+            done = false;
+            return false;}
+         else{
+            done = true;
+            return true;}
+    }
     
     public static void Button(String b){
       if(shipName.equals("")){
-         System.out.println("ERROR - NO SHIP SELECTED");}
+         String errorNoSelect = "ERROR - NO SHIP SELECTED";
+         ShipSorter noShip = new ShipSorter(errorNoSelect);}
       else if(shipName.equals("AircraftCarrier")){
-         ShipSorter shipAC = new ShipSorter(shipName, rotate);
+         ShipSorter shipAC = new ShipSorter(shipName, rotate, done);
          shipAC.buttonPressed(b);}
       else if(shipName.equals("Destroyer")){
-         ShipSorter shipDS = new ShipSorter(shipName, rotate);
+         ShipSorter shipDS = new ShipSorter(shipName, rotate, done);
          shipDS.buttonPressed(b);}
       else if(shipName.equals("Submarine")){
-         ShipSorter shipSM = new ShipSorter(shipName, rotate);
+         ShipSorter shipSM = new ShipSorter(shipName, rotate, done);
          shipSM.buttonPressed(b);}
       }
-      
-    // -------------------------------------------------------
-               
-    /*public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run(){
-                new GUI().setVisible(true);
-            }
-        });
-    }*/
  }
