@@ -4,6 +4,8 @@ import java.awt.event.*;
 
 public class GameGUI extends javax.swing.JFrame {
 
+   public static AIPlayer AI = new AIPlayer(false);
+
 	public GameGUI() {
 
 		PlayerPanel = new javax.swing.JPanel();
@@ -145,7 +147,7 @@ public class GameGUI extends javax.swing.JFrame {
 
 		// -------------------------------------------------------
 
-		// jButtonA1.setBackground(Color.BLUE);
+		jButtonA1.setBackground(Color.BLUE);
 		jButtonA2.setBackground(Color.BLUE);
 		jButtonA3.setBackground(Color.BLUE);
 		jButtonA4.setBackground(Color.BLUE);
@@ -2878,7 +2880,7 @@ public class GameGUI extends javax.swing.JFrame {
 	// -------------------------------------------------------
 
 	public void jButtonA1ActionPerformed() {
-		Attempt("A1");
+		Button("A1");
 	}
 
 	public void jButtonA2ActionPerformed() {
@@ -3558,8 +3560,10 @@ public class GameGUI extends javax.swing.JFrame {
 	}
 
 	public void ButtonO(String b) {
-		GameStart gs = new GameStart();
+      AIPlayer.createShips();
+      GameStart gs = new GameStart();
 		gs.attackOpponent(b);
+      while (Game.playerTurn == false) {
+         Game.playerTurn = AIPlayer.attackPlayerShip();}
 	}
-
 }
