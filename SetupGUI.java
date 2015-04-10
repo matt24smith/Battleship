@@ -1281,7 +1281,8 @@ public class SetupGUI extends javax.swing.JFrame {
     
     public static void Button(String b){
       if(shipName.equals("")){
-         System.out.println("ERROR - NO SHIP SELECTED");}
+         String errorNo = "ERROR - NO SHIP SELECTED";
+         ShipSorter errorNoShip = new ShipSorter(errorNo);}
       else if(shipName.equals("AircraftCarrier")){
          ShipSorter shipAC = new ShipSorter(shipName, rotate, done);
          shipAC.buttonPressed(b);}
