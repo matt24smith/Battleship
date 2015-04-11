@@ -30,10 +30,18 @@ public class ShipSorter {
 	public static boolean locationCheckAC() {// check if boat exists at location
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
-				if (shipsLocation[0][i] != null) {// check if location has element
+				if (shipsLocation[0][i] != null) {// check if location has
+													// element
 					if (shipsLocation[0][i].equals(shipsLocation[1][j])
-							|| shipsLocation[0][i].equals(shipsLocation[2][j])) {// check if element is = to submarine/destoryer
-						setupGUI.text("ERROR - SHIP ALREADY AT LOCATION");// error message
+							|| shipsLocation[0][i].equals(shipsLocation[2][j])) {// check
+																					// if
+																					// element
+																					// is
+																					// =
+																					// to
+																					// submarine/destoryer
+						setupGUI.text("ERROR - SHIP ALREADY AT LOCATION");// error
+																			// message
 						return false;
 					}
 				}
@@ -73,9 +81,11 @@ public class ShipSorter {
 	}
 
 	public static boolean buttonPressed(String location) {
-		if (setupGUI.doneButton() == false) {// ship locations are not finalized or missing ship
+		if (setupGUI.doneButton() == false) {// ship locations are not finalized
+												// or missing ship
 			if (rotate == false) {// all ships are vertical
-				if (name.equals("AircraftCarrier")) {// if boat is AircraftCarrier
+				if (name.equals("AircraftCarrier")) {// if boat is
+														// AircraftCarrier
 					if (location.equals("A1")) {// if location is A1
 						shipsLocation[0][0] = "A1";// set ship locations
 						shipsLocation[0][1] = "B1";
