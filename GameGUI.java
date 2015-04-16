@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 public class GameGUI extends javax.swing.JFrame {
 
-	public static AIPlayer AI = new AIPlayer(false);
+   public static AIPlayer AI = new AIPlayer(false);
 
 	public GameGUI() {
 
@@ -3560,10 +3560,9 @@ public class GameGUI extends javax.swing.JFrame {
 	}
 
 	public void ButtonO(String b) {
-		AIPlayer.createShips();
+      AIPlayer.createShips();
 		GameStart.attackOpponent(b);
-		while (Game.playerTurn == false) {
-			Game.playerTurn = AIPlayer.attackPlayerShipDumb();
-		}
+      while (Game.playerTurn == false) {
+         Game.playerTurn = AIPlayer.attackPlayerShipSmart();}
 	}
 }
