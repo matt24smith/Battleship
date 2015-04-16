@@ -93,7 +93,7 @@ public class GameStart {
 										&& A1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A1 = true;
@@ -106,7 +106,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A1 = true;
 									}
@@ -125,7 +125,7 @@ public class GameStart {
 										&& A2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A2 = true;
@@ -138,7 +138,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A2 = true;
 									}
@@ -157,7 +157,7 @@ public class GameStart {
 										&& A3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A3 = true;
@@ -170,7 +170,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A3 = true;
 									}
@@ -189,7 +189,7 @@ public class GameStart {
 										&& A4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A4 = true;
@@ -202,7 +202,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A4 = true;
 									}
@@ -221,7 +221,7 @@ public class GameStart {
 										&& A5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A5 = true;
@@ -234,7 +234,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A5 = true;
 									}
@@ -253,7 +253,7 @@ public class GameStart {
 										&& A6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A6 = true;
@@ -266,7 +266,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A6 = true;
 									}
@@ -285,7 +285,7 @@ public class GameStart {
 										&& A7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A7 = true;
@@ -298,7 +298,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A7 = true;
 									}
@@ -317,7 +317,7 @@ public class GameStart {
 										&& A8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonA8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									A8 = true;
@@ -330,7 +330,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && A8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										A8 = true;
 									}
@@ -349,7 +349,7 @@ public class GameStart {
 										&& B1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B1 = true;
@@ -362,7 +362,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B1 = true;
 									}
@@ -381,7 +381,7 @@ public class GameStart {
 										&& B2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B2 = true;
@@ -394,7 +394,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B2 = true;
 									}
@@ -413,7 +413,7 @@ public class GameStart {
 										&& B3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B3 = true;
@@ -426,7 +426,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B3 = true;
 									}
@@ -445,7 +445,7 @@ public class GameStart {
 										&& B4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B4 = true;
@@ -458,7 +458,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B4 = true;
 									}
@@ -477,7 +477,7 @@ public class GameStart {
 										&& B5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B5 = true;
@@ -490,7 +490,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B5 = true;
 									}
@@ -509,7 +509,7 @@ public class GameStart {
 										&& B6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B6 = true;
@@ -522,7 +522,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B6 = true;
 									}
@@ -541,7 +541,7 @@ public class GameStart {
 										&& B7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B7 = true;
@@ -554,7 +554,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B7 = true;
 									}
@@ -573,7 +573,7 @@ public class GameStart {
 										&& B8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonB8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									B8 = true;
@@ -586,7 +586,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && B8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										B8 = true;
 									}
@@ -605,7 +605,7 @@ public class GameStart {
 										&& C1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C1 = true;
@@ -618,7 +618,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C1 = true;
 									}
@@ -637,7 +637,7 @@ public class GameStart {
 										&& C2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C2 = true;
@@ -650,7 +650,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C2 = true;
 									}
@@ -669,7 +669,7 @@ public class GameStart {
 										&& C3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C3 = true;
@@ -682,7 +682,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C3 = true;
 									}
@@ -701,7 +701,7 @@ public class GameStart {
 										&& C4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C4 = true;
@@ -714,7 +714,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C4 = true;
 									}
@@ -733,7 +733,7 @@ public class GameStart {
 										&& C5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C5 = true;
@@ -746,7 +746,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C5 = true;
 									}
@@ -765,7 +765,7 @@ public class GameStart {
 										&& C6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C6 = true;
@@ -778,7 +778,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C6 = true;
 									}
@@ -797,7 +797,7 @@ public class GameStart {
 										&& C7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C7 = true;
@@ -810,7 +810,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C7 = true;
 									}
@@ -829,7 +829,7 @@ public class GameStart {
 										&& C8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonC8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									C8 = true;
@@ -842,7 +842,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && C8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										C8 = true;
 									}
@@ -861,7 +861,7 @@ public class GameStart {
 										&& D1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D1 = true;
@@ -874,7 +874,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D1 = true;
 									}
@@ -893,7 +893,7 @@ public class GameStart {
 										&& D2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D2 = true;
@@ -906,7 +906,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D2 = true;
 									}
@@ -925,7 +925,7 @@ public class GameStart {
 										&& D3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D3 = true;
@@ -938,7 +938,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D3 = true;
 									}
@@ -957,7 +957,7 @@ public class GameStart {
 										&& D4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D4 = true;
@@ -970,7 +970,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D4 = true;
 									}
@@ -989,7 +989,7 @@ public class GameStart {
 										&& D5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D5 = true;
@@ -1002,7 +1002,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D5 = true;
 									}
@@ -1021,7 +1021,7 @@ public class GameStart {
 										&& D6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D6 = true;
@@ -1034,7 +1034,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D6 = true;
 									}
@@ -1053,7 +1053,7 @@ public class GameStart {
 										&& D7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D7 = true;
@@ -1066,7 +1066,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D7 = true;
 									}
@@ -1085,7 +1085,7 @@ public class GameStart {
 										&& D8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonD8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									D8 = true;
@@ -1098,7 +1098,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && D8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										D8 = true;
 									}
@@ -1117,7 +1117,7 @@ public class GameStart {
 										&& E1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E1 = true;
@@ -1130,7 +1130,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E1 = true;
 									}
@@ -1149,7 +1149,7 @@ public class GameStart {
 										&& E2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E2 = true;
@@ -1162,7 +1162,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E2 = true;
 									}
@@ -1181,7 +1181,7 @@ public class GameStart {
 										&& E3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E3 = true;
@@ -1194,7 +1194,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E3 = true;
 									}
@@ -1213,7 +1213,7 @@ public class GameStart {
 										&& E4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E4 = true;
@@ -1226,7 +1226,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E4 = true;
 									}
@@ -1245,7 +1245,7 @@ public class GameStart {
 										&& E5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E5 = true;
@@ -1258,7 +1258,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E5 = true;
 									}
@@ -1277,7 +1277,7 @@ public class GameStart {
 										&& E6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E6 = true;
@@ -1290,7 +1290,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E6 = true;
 									}
@@ -1309,7 +1309,7 @@ public class GameStart {
 										&& E7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E7 = true;
@@ -1322,7 +1322,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E7 = true;
 									}
@@ -1341,7 +1341,7 @@ public class GameStart {
 										&& E8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonE8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									E8 = true;
@@ -1354,7 +1354,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && E8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										E8 = true;
 									}
@@ -1373,7 +1373,7 @@ public class GameStart {
 										&& F1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F1 = true;
@@ -1386,7 +1386,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F1 = true;
 									}
@@ -1405,7 +1405,7 @@ public class GameStart {
 										&& F2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F2 = true;
@@ -1418,7 +1418,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F2 = true;
 									}
@@ -1437,7 +1437,7 @@ public class GameStart {
 										&& F3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F3 = true;
@@ -1450,7 +1450,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F3 = true;
 									}
@@ -1469,7 +1469,7 @@ public class GameStart {
 										&& F4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F4 = true;
@@ -1482,7 +1482,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F4 = true;
 									}
@@ -1501,7 +1501,7 @@ public class GameStart {
 										&& F5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F5 = true;
@@ -1514,7 +1514,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F5 = true;
 									}
@@ -1533,7 +1533,7 @@ public class GameStart {
 										&& F6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F6 = true;
@@ -1546,7 +1546,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F6 = true;
 									}
@@ -1565,7 +1565,7 @@ public class GameStart {
 										&& F7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F7 = true;
@@ -1578,7 +1578,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F7 = true;
 									}
@@ -1597,7 +1597,7 @@ public class GameStart {
 										&& F8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonF8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									F8 = true;
@@ -1610,7 +1610,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && F8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										F8 = true;
 									}
@@ -1629,7 +1629,7 @@ public class GameStart {
 										&& G1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G1 = true;
@@ -1642,7 +1642,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G1 = true;
 									}
@@ -1661,7 +1661,7 @@ public class GameStart {
 										&& G2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G2 = true;
@@ -1674,7 +1674,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G2 = true;
 									}
@@ -1693,7 +1693,7 @@ public class GameStart {
 										&& G3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G3 = true;
@@ -1706,7 +1706,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G3 = true;
 									}
@@ -1725,7 +1725,7 @@ public class GameStart {
 										&& G4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G4 = true;
@@ -1738,7 +1738,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G4 = true;
 									}
@@ -1757,7 +1757,7 @@ public class GameStart {
 										&& G5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G5 = true;
@@ -1770,7 +1770,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G5 = true;
 									}
@@ -1789,7 +1789,7 @@ public class GameStart {
 										&& G6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G6 = true;
@@ -1802,7 +1802,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G6 = true;
 									}
@@ -1821,7 +1821,7 @@ public class GameStart {
 										&& G7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G7 = true;
@@ -1834,7 +1834,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G7 = true;
 									}
@@ -1853,7 +1853,7 @@ public class GameStart {
 										&& G8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonG8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									G8 = true;
@@ -1866,7 +1866,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && G8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										G8 = true;
 									}
@@ -1885,7 +1885,7 @@ public class GameStart {
 										&& H1 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH1);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H1 = true;
@@ -1898,7 +1898,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H1 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H1 = true;
 									}
@@ -1917,7 +1917,7 @@ public class GameStart {
 										&& H2 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH2);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H2 = true;
@@ -1930,7 +1930,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H2 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H2 = true;
 									}
@@ -1949,7 +1949,7 @@ public class GameStart {
 										&& H3 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH3);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H3 = true;
@@ -1962,7 +1962,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H3 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H3 = true;
 									}
@@ -1981,7 +1981,7 @@ public class GameStart {
 										&& H4 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH4);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H4 = true;
@@ -1994,7 +1994,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H4 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H4 = true;
 									}
@@ -2013,7 +2013,7 @@ public class GameStart {
 										&& H5 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH5);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H5 = true;
@@ -2026,7 +2026,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H5 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H5 = true;
 									}
@@ -2045,7 +2045,7 @@ public class GameStart {
 										&& H6 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH6);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H6 = true;
@@ -2058,7 +2058,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H6 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H6 = true;
 									}
@@ -2077,7 +2077,7 @@ public class GameStart {
 										&& H7 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH7);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H7 = true;
@@ -2090,7 +2090,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H7 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H7 = true;
 									}
@@ -2109,7 +2109,7 @@ public class GameStart {
 										&& H8 == false) {
 									gameGUI.colorHit(gameGUI.OjButtonH8);
 									Game.score++;
-									gameGUI.text("OPPONENT SHIP HIT");
+									gameGUI.text("PLAYER HIT OPPONENT SHIP");
 									attempt++;
 									Game.playerTurn = true;
 									H8 = true;
@@ -2122,7 +2122,7 @@ public class GameStart {
 									attempt++;
 									if (attempt == 9 && H8 == false) {
 										Game.playerTurn = false;
-										gameGUI.text("OPPONENT SHIP MISSED");
+										gameGUI.text("PLAYER MISSED OPPONENT SHIP");
 										attempt++;
 										H8 = true;
 									}
